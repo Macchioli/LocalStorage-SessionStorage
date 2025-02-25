@@ -36,3 +36,8 @@ localStorage.setItem("cartAbandoned", JSON.stringify(products))
 const productosLocalStorage = JSON.parse(localStorage.getItem("cartAbandoned"))
 
 console.log(productosLocalStorage)
+
+
+//!SessionStorage
+
+// sessionStorage.setItem("userSession", JSON.stringify("Michael Smith"))
